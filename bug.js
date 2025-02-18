@@ -1,0 +1,1 @@
+function foo(a,b){    if(a == 1){        return true;    }else if(b == 2){        return false;    }else{        return foo(a-1, b+1);    } } console.log(foo(3,0)); // Stack overflow error
